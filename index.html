@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--Para aceitar caracteres acentuados-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <link rel="stylesheet" href="style/style.css">
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Para trabalhar com outros albientes, ex mobile -->
+    <!--Owl Css-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+    <title>Projeto Netflix</title>
+</head>
+<body>
+    <header> <!--Cabeçalho da página: Navegador-->
+        <div class="container">
+           <h2 class="logo">MelanieFlix</h2>
+            <nav> <!--Navegação-->
+                <button class="botao">
+                    <a href="#">Início</a> <!--Dica: Alt+Shift+SetaParaBaixo, clona a linha-->
+                </button>
+                <button class="botao" onclick="window.open('https://www.youtube.com/user/Melmartinezx3/videos')" >
+                    <a href="#">Clipes</a>
+                </button>
+                <button class="botao" onclick="window.open('https://www.youtube.com/watch?v=2HtaIvb61Uk&t=2009s&ab_channel=melaniemartinez')">
+                    <a href="#">Filmes</a>
+                </button>
+
+            </nav> 
+        </div>
+    </header>
+    <main>
+        <div class="clipe-principal">
+            <div class="container">
+                <h3 class="titulo">Carousel</h3>
+                <p class="descricao">"Carousel" é uma canção da artista musical estadunidense Melanie Martinez, gravada para o seu primeiro extended play (EP) Dollhouse. Assista agora!</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="window.open('https://www.youtube.com/watch?v=zAB5AC9yhY0&ab_channel=melaniemartinez')">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                    <button role="button" class="botao"> 
+                        <i class="fas fa-info-circle"></i>
+                        Detalhes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-clipes">
+        <div class="owl-carousel owl-theme">
+            <button class="botao" onclick="window.open('https://www.youtube.com/watch?v=HcVv9R1ZR84&ab_channel=melaniemartinez')">
+                <div class="item">
+                    <img class="box-clipe"src="Recursos/Dollhouse.jpg" alt="Capa do clipe Dollhouse">
+                </div>
+            </button >
+            <button class="botao" onclick="window.open('https://www.youtube.com/watch?v=O87lzhoexyA&ab_channel=melaniemartinez')">
+                <div class="item">
+                    <img class="box-clipe"src="Recursos/CryBaby.jpg" alt="Capa do clipe Cry Baby">
+                </div>
+            </button>  
+            <button class="botao" onclick="window.open('https://www.youtube.com/watch?v=04UjShXZbD0&ab_channel=melaniemartinez')">
+                <div class="item">
+                    <img class="box-clipe"src="Recursos/MadHatter.jpg" alt="Capa do clipe Mad Hatter">
+                </div>
+            </button>
+            <button class="botao" onclick="window.open('https://www.youtube.com/watch?v=BEYHJFIONvU&ab_channel=melaniemartinez')">
+                <div class="item">
+                    <img class="box-clipe"src="Recursos/Milk.jpg" alt="Capa do clipe Milk and Cookies">
+                </div>
+            </button>
+            <button class="botao" onclick="window.open('https://www.youtube.com/watch?v=6bAPlojfgO0&ab_channel=melaniemartinez')">
+                <div class="item">
+                    <img class="box-clipe"src="Recursos/PityParty.jpg" alt="Capa do clipe Pity Party">
+                </div>
+            </button>
+            <button class="botao" onclick="window.open('https://www.youtube.com/watch?v=BEYHJFIONvU&ab_channel=melaniemartinez')">
+                <div class="item">
+                    <img class="box-clipe"src="Recursos/Tag.jpg" alt="Capa do clipe Tage You're It">
+                </div>
+            </button>
+            <button class="botao" onclick="window.open('https://www.youtube.com/watch?v=ziotSaBtqGk&ab_channel=melaniemartinez')">
+                <div class="item">
+                    <img class="box-clipe"src="Recursos/TheBakery.jpg" alt="Capa do clipe The Bakery">
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9b303a3428.js" crossorigin="anonymous"></script>
+    <script src="Js/Owl/jquery.min.js"></script>
+    <script src="Js/Owl/owl.carousel.min.js"></script>
+    <script src="Js/Owl/main.js"></script>
+</body>
+</html>
